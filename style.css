@@ -14,7 +14,7 @@ li{
 }
 /*header background color and margin*/
 header {
-	display: block;
+	/*display: block;*/
 	background-color:#CABBB7;
 	margin-top: 1%;
 }
@@ -34,73 +34,50 @@ nav {
 
 /*footer background color, text align, padding */
 footer {
+	width: 100%;
 	background-color: #CABBB7;
 	text-align: center;
-	padding-top: 1%;
+	padding-top: 1.5%;
 	padding-bottom: 1%;
 	margin-bottom: 1%;
-	display: inline-block;
+	display: inline-block;	
 }
-/*h3 positioning and font*/
-#header {
-	display: inline-block;
-	padding-top: 4%;
-	padding-left: 15%;
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 20px;
-	letter-spacing: 0.2px;
-	word-spacing: 2px;
-	color: #000000;
-	font-weight: 600;
-	text-decoration: none;
-	font-style: normal;
-	font-variant: normal;
-	text-transform: none;
-}
+
 article {
 	display: block;
 	text-align: center;
 	}
 /* h1 font and positioning */
-h1 {
+#hero {
 	display:block;
 	margin-bottom: 8%;
 	text-align: center;
-	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 60px;
-	letter-spacing: 0.2px;
-	word-spacing: 2px;
-	color: #000000;
-	font-weight: 700;
-	text-decoration: none;
-	font-style: normal;
-	font-variant: normal;
-	text-transform: none;
+	
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 }
 /* Header Logo positioning and scaling*/
 #Hlogo {
-	padding-top: 2.2%;
-	padding-right: 2%;
 	width: 25%;
 	height: auto;
 	float: right;
 	margin-right: 2%;
+	margin-top: 2%;
 }
 /*Footer logo width*/
 #Flogo {
 	width: 20%;
 }
 /*Article 1 Positioning*/
-#macek {
+#divart1 {
 	display: block;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
-#macek2 {
+#divart2 {
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -111,6 +88,8 @@ h1 {
 #article3 {
 	margin-left: 5%;
 }
+
+/* Image positioning and scaling*/
 #imgart1 {
 	width: 100%;
 	height: auto;
@@ -126,26 +105,6 @@ h1 {
 	height: auto;
 
 }
-.artrow2 {
-	width: 45%;
-	float: left;
-	display: inline-block;
-}
-/*article text font*/
-#p-art {
-	margin-top: 0;
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 17px;
-	letter-spacing: 0.2px;
-	word-spacing: 2px;
-	color: #000000;
-	font-weight: 700;
-	text-decoration: none;
-	font-style: normal;
-	font-variant: normal;
-	text-transform: none;
-	padding-top: -1%;
-}
 #imgwrap {
 	position: relative;
 	overflow: hidden;
@@ -154,3 +113,37 @@ h1 {
 #imgwrap  img {
 	position: absolute;
 }
+
+.artrow2 {
+	width: 45%;
+	float: left;
+}
+
+p {
+	font-family: Tahoma, Geneva, sans-serif;
+    letter-spacing: 0.2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+/*article text font*/
+#p-art {
+	margin-top: 0;
+	font-size: 21px;
+}
+
+/*h3 positioning and font*/
+#header {
+	display: inline-block;
+	margin-top: 5%;
+	padding-left: 15%;
+	font-size: 18px;
+	
+}
+#pfoot {
+	    font-size: 16px;
+   }
