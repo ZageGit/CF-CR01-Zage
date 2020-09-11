@@ -1,8 +1,10 @@
+
+/*setting body max widht and center */
 body {
 	max-width: 960px;
 	margin: auto;
 }
-
+/*formating nav bar lines */
 li{
 	display: inline-block;
 	font-size: 1.5em;
@@ -12,30 +14,46 @@ li{
 	padding-right: 4%;
 }
 
+/*header background color and margin*/
 header {
 	display: block;
-	background-color: red;
+	background-color:#CABBB7;
 	margin-top: 1%;
 
 }
+
+/* navbar background color and text align*/
 nav {
 	display: block;
-	background-color: grey;
+	background-color: #C65252;
 	text-align: right;
+	color: red;
 }
 
+/*footer background color, text align, padding */
 footer {
 	display: block;
-	background-color: grey;
+	background-color: #CABBB7;
 	text-align: center;
 	padding-top: 1%;
 	padding-bottom: 1%;
 }
-
-h3 {
+/*h3 positioning and font*/
+#header {
 	display: inline-block;
-	padding-top: 5%;
+	padding-top: 4%;
 	padding-left: 15%;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+	letter-spacing: 0.2px;
+	word-spacing: 2px;
+	color: #000000;
+	font-weight: 400;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
 }
 
 article {
@@ -45,18 +63,32 @@ article {
 }
 
 footer {
-	display: block;
 	margin-bottom: 1%;
+	display: inline-block;
 }
 
-
+/* h1 font and positioning */
 div h1 {
-	font-size: 4em;
-	margin-top: 5%;
-	margin-bottom: 5%;
+	display:block;
+	/*margin-top: 5%;
+	margin-bottom: 5%;*/
 	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 60px;
+	letter-spacing: 0.2px;
+	word-spacing: 2px;
+	color: #000000;
+	font-weight: 700;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+/* Header Logo positioning and scaling*/
 #Hlogo {
 	padding-top: 2.2%;
 	padding-right: 2%;
@@ -66,10 +98,13 @@ div h1 {
 }
 
 #Flogo {
-	width: 15%;
-	height: auto;
+	width: 20%;
 }
 
+
+
+
+/*Article 1 Positioning*/
 #article1 {
 	display: block;
 	width: 75%;
@@ -78,13 +113,18 @@ div h1 {
 }
 
 #article2 {
-	display: inline-block;
+	display: block;
 	width: 30%;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #article3 {
 	display: block;
 	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
 	
 }
 #imgart1 {
@@ -92,8 +132,31 @@ div h1 {
 	height: auto;
 
 }
+#imgart2 {
+	width: 100%;
+	height: auto;
 
+}#imgart3 {
+	width: 100%;
+	height: auto;
+
+}
 .artrow2 {
 	width: 30%;
 
+}
+/*article text font*/
+#p-art {
+
+	font-family: Tahoma, Geneva, sans-serif;
+font-size: 18px;
+letter-spacing: 0.2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+padding-top: -1%;
 }
