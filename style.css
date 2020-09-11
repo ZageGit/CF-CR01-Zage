@@ -1,27 +1,24 @@
 
 /*setting body max widht and center */
 body {
-	max-width: 960px;
+	max-width: 85%;
 	margin: auto;
 }
 /*formating nav bar lines */
 li{
 	display: inline-block;
-	font-size: 1.5em;
-	color: white;
+	font-size: 1.6em;
 	padding-top: 1%;
 	padding-bottom: 1%;
-	padding-right: 4%;
+	padding-right: 3%;
 }
-
 /*header background color and margin*/
 header {
 	display: block;
 	background-color:#CABBB7;
 	margin-top: 1%;
-
 }
-
+/*font edit nav lines*/
 a {
 	color: white;
 	text-decoration: none;
@@ -30,7 +27,6 @@ a {
 }
 /* navbar background color and text align*/
 nav {
-	display: block;
 	background-color: #C65252;
 	text-align: right;
 	color: red;
@@ -38,11 +34,12 @@ nav {
 
 /*footer background color, text align, padding */
 footer {
-	display: block;
 	background-color: #CABBB7;
 	text-align: center;
 	padding-top: 1%;
 	padding-bottom: 1%;
+	margin-bottom: 1%;
+	display: inline-block;
 }
 /*h3 positioning and font*/
 #header {
@@ -50,34 +47,24 @@ footer {
 	padding-top: 4%;
 	padding-left: 15%;
 	font-family: Tahoma, Geneva, sans-serif;
-	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 20px;
 	letter-spacing: 0.2px;
 	word-spacing: 2px;
 	color: #000000;
-	font-weight: 400;
+	font-weight: 600;
 	text-decoration: none;
 	font-style: normal;
 	font-variant: normal;
 	text-transform: none;
 }
-
 article {
 	display: block;
 	text-align: center;
-	
-}
-
-footer {
-	margin-bottom: 1%;
-	display: inline-block;
-}
-
+	}
 /* h1 font and positioning */
-div h1 {
+h1 {
 	display:block;
-	/*margin-top: 5%;
-	margin-bottom: 5%;*/
+	margin-bottom: 8%;
 	text-align: center;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 60px;
@@ -93,7 +80,6 @@ div h1 {
 	margin-left: auto;
 	margin-right: auto;
 }
-
 /* Header Logo positioning and scaling*/
 #Hlogo {
 	padding-top: 2.2%;
@@ -101,15 +87,12 @@ div h1 {
 	width: 25%;
 	height: auto;
 	float: right;
+	margin-right: 2%;
 }
-
+/*Footer logo width*/
 #Flogo {
 	width: 20%;
 }
-
-
-
-
 /*Article 1 Positioning*/
 #macek {
 	display: block;
@@ -117,25 +100,21 @@ div h1 {
 	margin-left: auto;
 	margin-right: auto;
 }
-
 #macek2 {
 	margin-left: auto;
 	margin-right: auto;
 }
-
-
 #article2 {
 	margin-right: 5%;
 }
 
 #article3 {
 	margin-left: 5%;
-	
 }
 #imgart1 {
 	width: 100%;
 	height: auto;
-	top: -5em;
+	top: -10em;
 	left: 0;
 }
 #imgart2 {
@@ -154,31 +133,24 @@ div h1 {
 }
 /*article text font*/
 #p-art {
-margin-top: 0;
-font-family: Tahoma, Geneva, sans-serif;
-font-size: 17px;
-letter-spacing: 0.2px;
-word-spacing: 2px;
-color: #000000;
-font-weight: 700;
-text-decoration: none;
-font-style: normal;
-font-variant: normal;
-text-transform: none;
-padding-top: -1%;
+	margin-top: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 17px;
+	letter-spacing: 0.2px;
+	word-spacing: 2px;
+	color: #000000;
+	font-weight: 700;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	padding-top: -1%;
 }
-
 #imgwrap {
 	position: relative;
 	overflow: hidden;
 	height: 17em;
-
-
 }
-
 #imgwrap  img {
 	position: absolute;
-
-
-
 }
