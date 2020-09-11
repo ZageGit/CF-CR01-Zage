@@ -1,0 +1,99 @@
+body {
+	max-width: 960px;
+	margin: auto;
+}
+
+li{
+	display: inline-block;
+	font-size: 1.5em;
+	color: white;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 4%;
+}
+
+header {
+	display: block;
+	background-color: red;
+	margin-top: 1%;
+
+}
+nav {
+	display: block;
+	background-color: grey;
+	text-align: right;
+}
+
+footer {
+	display: block;
+	background-color: grey;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+h3 {
+	display: inline-block;
+	padding-top: 5%;
+	padding-left: 15%;
+}
+
+article {
+	display: block;
+	text-align: center;
+	
+}
+
+footer {
+	display: block;
+	margin-bottom: 1%;
+}
+
+
+div h1 {
+	font-size: 4em;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+#Hlogo {
+	padding-top: 2.2%;
+	padding-right: 2%;
+	width: 25%;
+	height: auto;
+	float: right;
+}
+
+#Flogo {
+	width: 15%;
+	height: auto;
+}
+
+#article1 {
+	display: block;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#article2 {
+	display: inline-block;
+	width: 30%;
+}
+
+#article3 {
+	display: block;
+	width: 30%;
+	
+}
+#imgart1 {
+	width: 100%;
+	height: auto;
+
+}
+
+.artrow2 {
+	width: 30%;
+
+}
