@@ -14,7 +14,6 @@ li{
 }
 /*header background color and margin*/
 header {
-	/*display: block;*/
 	background-color:#CABBB7;
 	margin-top: 1%;
 }
@@ -31,7 +30,6 @@ nav {
 	text-align: right;
 	color: red;
 }
-
 /*footer background color, text align, padding */
 footer {
 	width: 100%;
@@ -42,21 +40,18 @@ footer {
 	margin-bottom: 1%;
 	display: inline-block;	
 }
-
 article {
 	display: block;
 	text-align: center;
 	}
 /* h1 font and positioning */
 #hero {
-	display:block;
 	margin-bottom: 8%;
 	text-align: center;
 	font-size: 60px;
-	
-	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
+	width: 50%;
 }
 /* Header Logo positioning and scaling*/
 #Hlogo {
@@ -147,3 +142,4 @@ p {
 #pfoot {
 	    font-size: 16px;
    }
+
