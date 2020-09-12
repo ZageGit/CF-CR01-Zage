@@ -65,7 +65,7 @@ article {
 #Flogo {
 	width: 20%;
 }
-/*Article 1 Positioning*/
+/*Article  Positioning*/
 #divart1 {
 	width: 80%;
 	margin-left: auto;
@@ -81,6 +81,10 @@ article {
 
 #article3 {
 	margin-left: 5%;
+}
+.artrow2 {
+	width: 45%;
+	float: left;
 }
 
 /* Image positioning and scaling*/
@@ -108,10 +112,7 @@ article {
 	position: absolute;
 }
 
-.artrow2 {
-	width: 45%;
-	float: left;
-}
+
 
 p {
 	font-family: Tahoma, Geneva, sans-serif;
@@ -127,7 +128,7 @@ p {
 /*article text font*/
 #p-art {
 	margin-top: 0;
-	font-size: 21px;
+	font-size: 24px;
 }
 
 /*h3 positioning and font*/
